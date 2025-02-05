@@ -74,7 +74,7 @@ proxies:
 
 proxy-groups:
   - name: ID-X
-    type: fallback
+    type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
@@ -83,7 +83,7 @@ proxy-groups:
       - AKUN3
 
   - name: MIX-X
-    type: fallback
+    type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
