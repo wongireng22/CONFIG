@@ -59,19 +59,21 @@ proxies:
         Host: id-biznet.vip-latunv.biz.id
     udp: true
   - name: AKUN3
-    server: maritime.lipcon.com
+    server: img.email3.vidio.com
     port: 443
-    type: trojan
-    password: e76f4137-5762-4b81-8ed3-9e93dff47c9e
+    type: vmess
+    uuid: 15d89c37-ae5a-4436-a598-a7397ddebe43
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id-biznet.vip-latunv.biz.id
+    servername: sgdo-2.limitedvpn.my.id
     network: ws
     ws-opts:
-      path: /trojan-ws
+      path: /vmess
       headers:
-        Host: id-biznet.vip-latunv.biz.id
+        Host: sgdo-2.limitedvpn.my.id
     udp: true
-
 proxy-groups:
   - name: ID-X
     type: fallback
